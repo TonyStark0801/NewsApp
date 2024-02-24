@@ -1,5 +1,6 @@
 package com.jio.newsapp.presentation.onboarding.components
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
@@ -18,7 +19,7 @@ fun PageIndicator(
     modifier: Modifier =  Modifier,
     pageSize: Int,
     selectedPage:Int,
-    SelectedColor: Color = MaterialTheme.colorScheme.primary,
+    selectedColor: Color = MaterialTheme.colorScheme.primary,
     unselectedColor:Color = BlueGray
 ) {
     Row (
@@ -26,7 +27,12 @@ fun PageIndicator(
         horizontalArrangement = Arrangement.SpaceBetween
         ){
         repeat(pageSize){
-            page-> Box(modifier = Modifier.size(IndicatorSize).clip(CircleShape))
+            page-> Box(
+                modifier = Modifier
+                    .size(IndicatorSize)
+                    .clip(CircleShape)
+                    .background(color = if (page==selectedPage) selectedColor else unselectedColor)
+            )
         }
     }
 }

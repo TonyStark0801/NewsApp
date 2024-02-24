@@ -11,18 +11,18 @@ data class Page(
 
 val pages = listOf(
     Page(
-        title = "Iron man",
-        description = "I am Iron Man",
-        image =  R.drawable.onboarding
+        title = "Lorem Ipsum ",
+        description = " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.   recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        image =  R.drawable.onboarding1
     ),
     Page(
-        title = "Iron man",
-        description = "I am Iron Man",
-        image =  R.drawable.onboarding
+        title = "Lorem Ipsum ",
+        description = " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.   recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        image =  R.drawable.onboarding2
     ),
     Page(
-        title = "Iron man",
-        description = "I am Iron Man",
-        image =  R.drawable.onboarding
+        title = "Lorem Ipsum ",
+        description = " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.   recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        image =  R.drawable.onboarding3
     )
 )
