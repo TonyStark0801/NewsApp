@@ -1,6 +1,5 @@
 package com.jio.newsapp.presentation.onboarding.components
 
-import android.content.res.Configuration
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -17,11 +16,9 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.core.content.contentValuesOf
 import com.jio.newsapp.R
 import com.jio.newsapp.presentation.onboarding.Page
 import com.jio.newsapp.presentation.onboarding.components.Dimens.MediumPadding1
-
 import com.jio.newsapp.presentation.onboarding.components.Dimens.MediumPadding2
 import com.jio.newsapp.presentation.onboarding.pages
 import com.jio.newsapp.ui.theme.NewsAppTheme

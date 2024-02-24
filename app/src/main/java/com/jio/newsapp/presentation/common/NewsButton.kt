@@ -13,7 +13,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.jio.newsapp.ui.theme.NewsAppTheme
 import com.jio.newsapp.ui.theme.WhiteGray
-import org.jetbrains.annotations.ApiStatus.NonExtendable
 
 @Composable
 fun NewsButton(
@@ -49,7 +48,7 @@ fun NewsTextButton(
 }
 @Preview
 @Composable
-fun newsbutton() {
+fun Newsbuttton() {
     NewsAppTheme {
         NewsButton(text = "Next") {
         
@@ -58,7 +57,7 @@ fun newsbutton() {
 }
 @Preview
 @Composable
-fun buttonPrev() {
+fun ButtonPrev() {
     NewsAppTheme {
         NewsTextButton(text = "Back") {
             
