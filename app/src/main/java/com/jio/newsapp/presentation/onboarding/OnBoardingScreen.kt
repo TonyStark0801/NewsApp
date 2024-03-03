@@ -18,13 +18,11 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import com.jio.newsapp.presentation.common.NewsButton
 import com.jio.newsapp.presentation.common.NewsTextButton
 import com.jio.newsapp.presentation.onboarding.components.Dimens
 import com.jio.newsapp.presentation.onboarding.components.OnboardingPage
 import com.jio.newsapp.presentation.onboarding.components.PageIndicator
-import com.jio.newsapp.ui.theme.NewsAppTheme
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalFoundationApi::class)
