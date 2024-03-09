@@ -76,6 +76,11 @@ dependencies {
     implementation ("com.google.dagger:hilt-android:2.51")
     kapt ("com.google.dagger:hilt-compiler:2.51")
     implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+    
+    //System UI controller
+    implementation("com.google.accompanist:accompanist-systemuicontroller:0.32.0")
+    implementation("androidx.activity:activity-compose:1.8.2")
+    
 }
 
 kapt {
